@@ -1,0 +1,45 @@
+@media (max-width: 768px) {
+  html {
+    font-size: 60%;
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0rem;
+    gap: 2.75rem;
+    margin-top: 2.75rem;
+  }
+
+  header {
+    gap: 2.75rem;
+  }
+
+  .menu {
+    flex-flow: column wrap;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .menu a {
+    padding: 1rem 1rem;
+    width: 10rem;
+    text-align: center;
+  }
+
+  .conteudo {
+    grid-template-columns: 1fr;
+    max-width: 300px;
+  }
+
+  .introducao,
+  .subtitulo {
+    place-items: center;
+    text-align: center;
+  }
+  .introducao::after {
+    display: none;
+  }
+
+  .vantagens-item {
+    gap: 0.5rem;
+  }
+}
